@@ -1,0 +1,15 @@
+<div *ngIf="pinguino" style="border: 1px solid black; padding: 10px;">
+  <div class="text-center">
+    <h5><img [src]="pinguino.image" alt="{{ pinguino.name }}" class="small-image"></h5>
+  </div>
+  <table class="table" style="width: auto; text-align: center;">
+    <tbody>
+      <tr>
+        <td><strong>{{ pinguino.name }}</strong></td>
+      </tr>
+      <tr>
+        <td>{{ pinguino.description }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
